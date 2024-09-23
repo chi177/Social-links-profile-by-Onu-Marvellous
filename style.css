@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: hsl(0, 0%, 8%);
+    font-weight: 100;
+    line-height: 1.6;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    max-width: 700px;
+    max-height: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+img{
+    display: block;
+    max-width: 28%;
+    margin-inline: auto;
+    font-style: italic;
+    color: hsl(75, 94%, 57%);
+    border-radius: 65%;
+}
+h1 {
+    line-height: 1.0;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-weight: bold;
+}
+.user-name {
+    font-size: large;
+    font-weight: 600;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.user-location {
+    color:hsl(75, 94%, 57%); ;
+    font-weight: 600;
+}
+.user-description {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.list-item {
+    display: block;
+    width: 80%;
+    padding: .5rem;
+    padding-right: auto;
+    text-align: center;
+    background:  hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 0.6rem;
+    transition: .3s ease;
+    margin-inline: auto;
+    margin-block: 5px;
+    text-decoration: none; /* Add this line */
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+}
+.list-item:hover {
+    color: black;
+    background: hsl(75, 94%, 57%);; 
+}
+
+/*layout styles*/
+.wrapper {
+    display: grid;
+    place-items: center;
+    margin-bottom: auto;
+    min-height:100dvh
+}
+.profile-container {
+    width: 20em;
+    padding: .75rem;
+    border-radius: 0.6rem;
+    background: hsl(0, 0%, 12%);
+    height: 80%;
+}
+.social-links {
+    list-style: none;
+    margin-top: .75rem;
+    padding: auto;
+    text-align: center;
+    height: 40%;
+    transition: color 0.5s ease;
+  }
+footer {
+    background-color: rgb(167, 233, 122);
+    color: white;
+    text-align: center;
+    padding: 3px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .user {
+    color: black;
+    text-decoration: none;
+  }
+  .attribution a {
+    text-decoration: none;
+    color: black;
+  }
